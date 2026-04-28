@@ -89,6 +89,8 @@
                 ?? GetMarketingName_083(model)
                 ?? GetMarketingName_084(model)
                 ?? GetMarketingName_085(model)
+                ?? GetMarketingName_086(model)
+                ?? GetMarketingName_087(model)
                 ?? null;
         }
     }
