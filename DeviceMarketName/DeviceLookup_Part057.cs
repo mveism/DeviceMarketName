@@ -4,6 +4,9 @@
     {
         internal static string? GetMarketingName_057(string model) => model switch
         {
+            "STK_Hero_X" => "Hero X",
+            "Life 8S" => "Life 8S",
+            "Life 9" => "Life_9",
             "STK Ace Plus" => "STK Ace Plus",
             "STK EVO" => "STK EVO",
             "STK Hero Lite" => "STK Hero Lite",
@@ -501,9 +504,6 @@
             "SM-A245N" => "Galaxy A24",
             "SC-53F" => "Galaxy A25 5G",
             "SCG33" => "Galaxy A25 5G",
-            "SM-A253C" => "Galaxy A25 5G",
-            "SM-A253Q" => "Galaxy A25 5G",
-            "SM-A253Z" => "Galaxy A25 5G",
             _ => null
         };
     }

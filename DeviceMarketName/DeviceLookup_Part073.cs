@@ -4,6 +4,10 @@
     {
         internal static string? GetMarketingName_073(string model) => model switch
         {
+            "TECNO S1E Pro" => "S1 Pro",
+            "TECNO SA1" => "S2",
+            "TECNO S6" => "S6",
+            "TECNO S6S" => "S6S",
             "TECNO SA1S Pro" => "SA1 Pro",
             "TECNO SA6" => "SA6",
             "TECNO SA6S" => "SA6",
@@ -123,6 +127,7 @@
             "TECNO LJ7" => "TECNO POVA 7 5G",
             "TECNO LJ8" => "TECNO POVA 7 Pro 5G",
             "TECNO LJ9" => "TECNO POVA 7 Ultra 5G",
+            "TECNO LK6" => "TECNO POVA 8 5G",
             "TECNO LK7k" => "TECNO POVA Curve 2 5G",
             "TECNO LJ8k" => "TECNO POVA Curve 5G",
             "TECNO LH6n" => "TECNO POVA Neo 3",
@@ -499,11 +504,6 @@
             "TIS_001" => "TIS_001",
             "TWIFI_08" => "TWIFI_08",
             "TWIFI_09" => "TWIFI_09",
-            "T54" => "T54",
-            "TP1060J" => "TIME2",
-            "TP860B" => "TIME2",
-            "M40_plus" => "M40_plus",
-            "M40_pro" => "M40_pro",
             _ => null
         };
     }

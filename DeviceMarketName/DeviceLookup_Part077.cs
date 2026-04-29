@@ -4,6 +4,11 @@
     {
         internal static string? GetMarketingName_077(string model) => model switch
         {
+            "V2153" => "T1",
+            "V2154" => "T1",
+            "V2168" => "T1",
+            "V2150" => "T1 5G",
+            "V2151" => "T1 Pro 5G",
             "V2143" => "T1x",
             "V2320" => "T2",
             "V2240" => "T2 5G",
@@ -499,11 +504,6 @@
             "vivo 1718" => "vivo 1718",
             "vivo 1720" => "vivo 1720",
             "vivo 1721" => "vivo 1721",
-            "vivo 1724" => "vivo 1724",
-            "vivo 1725" => "vivo 1725",
-            "vivo 1726" => "vivo 1726",
-            "vivo 1802" => "vivo 1802",
-            "vivo 1803" => "vivo 1803",
             _ => null
         };
     }

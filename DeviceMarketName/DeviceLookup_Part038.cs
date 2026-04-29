@@ -4,6 +4,7 @@
     {
         internal static string? GetMarketingName_038(string model) => model switch
         {
+            "AQUOS 70UD30A" => "55E82,49E82,50U3A,58U3A,70UD30A,60UD30A,80UD30A,65UR30A",
             "AQUOS 70UG30A" => "55E82,49E82,50U3A,58U3A,70UD30A,60UD30A,80UD30A,65UR30A",
             "AQUOS 70XU30A" => "55E82,49E82,50U3A,58U3A,70UD30A,60UD30A,80UD30A,65UR30A",
             "LenovoTV 49E82" => "55E82,49E82,50U3A,58U3A,70UD30A,60UD30A,80UD30A,65UR30A",
@@ -503,7 +504,6 @@
             "Lenovo S5000-H" => "S5000",
             "Lenovo S580" => "S580",
             "Lenovo S60-a" => "S60",
-            "Lenovo S60-t" => "S60",
             _ => null
         };
     }

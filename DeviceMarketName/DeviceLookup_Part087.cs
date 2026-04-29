@@ -4,6 +4,12 @@
     {
         internal static string? GetMarketingName_087(string model) => model switch
         {
+            "RMX5071" => "真我Neo7x",
+            "RMX8899" => "真我Neo8",
+            "RMX3462" => "真我Q3s",
+            "RMX3041" => "真我V13 5G",
+            "RMX3042" => "真我V13 5G",
+            "RMX3043" => "真我V13 5G",
             "RMX3783" => "真我V50",
             "RMX3781" => "真我V50s",
             "RMX3995" => "真我V60",

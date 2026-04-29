@@ -4,6 +4,11 @@
     {
         internal static string? GetMarketingName_079(string model) => model switch
         {
+            "Primo GM3 plus" => "Primo GM3+",
+            "Primo GM4" => "Primo GM4",
+            "Primo H10" => "Primo H10",
+            "Primo H6 Plus" => "Primo H6+",
+            "Primo H7" => "Primo H7",
             "Primo H7s" => "Primo H7s",
             "Primo H8 Pro" => "Primo H8 Pro",
             "Primo H9" => "Primo H9",
@@ -499,11 +504,6 @@
             "X-TIGI_V3+" => "V3+",
             "V51" => "V51",
             "X_TIGI_Photo P16" => "X-TIGI P16",
-            "X_TIGI_V19" => "X-TIGI V19",
-            "X-TIGI_JOY7_MAX" => "X-TIGI_JOY7_MAX",
-            "X-TIGI_V11" => "X-TIGI_V11",
-            "X-TIGI_V13" => "X-TIGI_V13",
-            "X-TIGI_V15" => "X-TIGI_V15",
             _ => null
         };
     }

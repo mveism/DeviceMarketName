@@ -4,6 +4,9 @@
     {
         internal static string? GetMarketingName_068(string model) => model switch
         {
+            "Surface Duo" => "Surface Duo",
+            "Surface Duo 2" => "Surface Duo 2",
+            "K7S" => "K7S",
             "Surfans P10P" => "P10P",
             "Y57A" => "Y57A",
             "VOLT_5XL" => "SURGE",
@@ -501,9 +504,6 @@
             "9136R" => "TCL TAB 8 SE",
             "9445X" => "TCL TAB A1 Plus",
             "9050S" => "TCL TAB Disney Edition",
-            "9150S" => "TCL TAB Disney Edition 2",
-            "9132L" => "TCL TAB Lite",
-            "9049L" => "TCL TAB kids",
             _ => null
         };
     }

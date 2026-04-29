@@ -4,6 +4,8 @@
     {
         internal static string? GetMarketingName_056(string model) => model switch
         {
+            "RG-station2" => "station2",
+            "myPhone Jet" => "myPhone Jet",
             "Remoter" => "Remoter",
             "FGAD" => "FGAD",
             "VERTU Ayxta Fold 3" => "VERTU Ayxta Fold 3",
@@ -341,6 +343,7 @@
             "GRAVITY" => "GRAVITY_6_10_EEA",
             "GRAVITY PRO" => "GRAVITY_6_PRO_11_EEA",
             "GRAVITY 6 SE 11" => "GRAVITY_6_SE_11_EEA",
+            "GRAVITY_PRO" => "GRAVITY_7_PRO_11_EEA",
             "Gravity Max" => "Gravity_Max_EEA",
             "L80W" => "L80W",
             "LIGHTYEAR 2" => "LIGHTYEAR-2",
@@ -501,9 +504,6 @@
             "STG S30" => "STG_S30",
             "MS9" => "MS9",
             "Evo 2" => "Evo_2",
-            "STK_Hero_X" => "Hero X",
-            "Life 8S" => "Life 8S",
-            "Life 9" => "Life_9",
             _ => null
         };
     }

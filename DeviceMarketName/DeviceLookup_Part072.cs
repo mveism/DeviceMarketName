@@ -4,6 +4,9 @@
     {
         internal static string? GetMarketingName_072(string model) => model switch
         {
+            "KF-1500" => "KF-1500",
+            "TV PLUS 4K BOX" => "TV PLUS 4K BOX",
+            "HP5432" => "TVPLUS",
             "TVPLUS BOX" => "TVPLUS BOX",
             "TVT-T108" => "TVT-T108",
             "Denali" => "Denali",
@@ -130,6 +133,7 @@
             "K13pro" => "k13pro",
             "TECHR720W" => "TECHR720W",
             "S1000Pro" => "S1000Pro",
+            "S15Pro" => "S15Pro",
             "S17Pro" => "S17Pro",
             "Tab_80_LTE" => "Techview_Tab_80_LTE",
             "APEX_P10HD_PRO" => "APEX_P10HD_PRO",
@@ -500,10 +504,6 @@
             "TECNO S1" => "S1",
             "TECNO S1M" => "S1",
             "TECNO S1 Pro" => "S1 Pro",
-            "TECNO S1E Pro" => "S1 Pro",
-            "TECNO SA1" => "S2",
-            "TECNO S6" => "S6",
-            "TECNO S6S" => "S6S",
             _ => null
         };
     }

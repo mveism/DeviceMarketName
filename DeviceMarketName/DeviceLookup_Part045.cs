@@ -4,6 +4,7 @@
     {
         internal static string? GetMarketingName_045(string model) => model switch
         {
+            "M7S_PLUS_KIDPAD" => "M7S_PLUS",
             "M7S_PLUS_PRINCESAS" => "M7S_PLUS",
             "M7s Dual ML03" => "M7s Dual Core",
             "M7sLite" => "M7sLite",
@@ -503,7 +504,6 @@
             "NBTY07SMKG" => "American Girl Tablet",
             "DMTAB-NV20A" => "Big Tab HD™ 20\"",
             "DMTAB-NV24A" => "Big Tab HD™ 24\"",
-            "DMTAB-IN08A" => "DreamTab HD8 Tablet",
             _ => null
         };
     }

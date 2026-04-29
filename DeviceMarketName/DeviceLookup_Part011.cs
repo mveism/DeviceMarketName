@@ -4,6 +4,7 @@
     {
         internal static string? GetMarketingName_011(string model) => model switch
         {
+            "i-mobile IQ1-1" => "IQ 1.1",
             "Linx PS474S" => "Linx PS474S",
             "MTC SMART Run" => "MTC SMART Run",
             "Mach" => "Mach",
@@ -503,7 +504,6 @@
             "Plus_M19_C779" => "Plus_M19_C779",
             "SmartPad-3G_C-708" => "SmartPad-3G_C-708",
             "80Pro" => "80Pro",
-            "PGN-507" => "A9",
             _ => null
         };
     }

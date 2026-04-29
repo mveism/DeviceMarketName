@@ -4,6 +4,11 @@
     {
         internal static string? GetMarketingName_074(string model) => model switch
         {
+            "T54" => "T54",
+            "TP1060J" => "TIME2",
+            "TP860B" => "TIME2",
+            "M40_plus" => "M40_plus",
+            "M40_pro" => "M40_pro",
             "M68_Plus" => "M68_Plus",
             "Epix" => "Epix",
             "Infinit_Lite_2" => "Infinit Lite 2",
@@ -499,11 +504,6 @@
             "10C_LTE" => "10C_LTE",
             "10L-PLUS" => "10L-PLUS",
             "VisionBook_10Qa_3G" => "10Qa_3G",
-            "10T-LTE" => "10T-LTE_EEA",
-            "11T-LTE-Pro" => "11T-LTE-Pro_EEA",
-            "7A_3G" => "7A_3G",
-            "7A_Plus" => "7A_Plus_eea",
-            "7Qa_3G" => "7Qa_3G",
             _ => null
         };
     }

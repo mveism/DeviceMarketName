@@ -4,6 +4,11 @@
     {
         internal static string? GetMarketingName_085(string model) => model switch
         {
+            "STELLAR MINI" => "STELLAR MINI",
+            "STELLAR P1" => "STELLAR P1",
+            "STELLAR P3" => "STELLAR P3",
+            "STELLAR P4" => "STELLAR P4",
+            "STELLAR P5" => "STELLAR P5",
             "STELLAR P6" => "STELLAR P6",
             "STELLAR PLUS" => "STELLAR PLUS",
             "STELLAR PRO" => "STELLAR PRO",
@@ -226,6 +231,7 @@
             "P30A" => "P30A",
             "SY07-PC01" => "T30A_SY07PC01",
             "T30A" => "T30A_SY07PC01",
+            "hoco_A15" => "hoco_A15",
             "A523 PRO" => "hoco_HI10",
             "hoco_HI10" => "hoco_HI10",
             "hoco_HI10_EEA" => "hoco_HI10_EEA",
@@ -498,12 +504,6 @@
             "I23M01_EEA" => "Swift 2",
             "I23M01_GL" => "Swift 2",
             "I23M02" => "Swift 2 Pro",
-            "I24M01" => "Swift2Ultra",
-            "EG104" => "EG104",
-            "EG110" => "EG110",
-            "EG125" => "Foryou Digital Co.,Ltd",
-            "IM-B101F" => "IM-B101F",
-            "IM-B101H" => "IM-B101H",
             _ => null
         };
     }

@@ -4,6 +4,11 @@
     {
         internal static string? GetMarketingName_075(string model) => model switch
         {
+            "10T-LTE" => "10T-LTE_EEA",
+            "11T-LTE-Pro" => "11T-LTE-Pro_EEA",
+            "7A_3G" => "7A_3G",
+            "7A_Plus" => "7A_Plus_eea",
+            "7Qa_3G" => "7Qa_3G",
             "8A_Plus" => "8A_Plus_eea",
             "8C_LTE" => "8C_LTE",
             "8L_PLUS_EEA" => "8L_PLUS_EEA",
@@ -499,11 +504,6 @@
             "T20_Play" => "T20_Play",
             "GetMi_Plus_95" => "T30_PLUS",
             "OA-DUNE" => "T30_PLUS",
-            "T30_PLUS" => "T30_PLUS",
-            "T30_Plus_EEA" => "T30_Plus_EEA",
-            "T50_PLUS" => "T50_PLUS",
-            "T60_PLUS" => "T60_PLUS",
-            "T7S" => "T7S",
             _ => null
         };
     }

@@ -4,6 +4,9 @@
     {
         internal static string? GetMarketingName_058(string model) => model switch
         {
+            "SM-A253C" => "Galaxy A25 5G",
+            "SM-A253Q" => "Galaxy A25 5G",
+            "SM-A253Z" => "Galaxy A25 5G",
             "SM-A2560" => "Galaxy A25 5G",
             "SM-A256B" => "Galaxy A25 5G",
             "SM-A256E" => "Galaxy A25 5G",
@@ -501,9 +504,6 @@
             "SM-G361F" => "Galaxy Core Prime",
             "SM-G361M" => "Galaxy Core Prime",
             "SM-G360T1" => "Galaxy Core Prime",
-            "SM-G360T" => "Galaxy Core Prime",
-            "SM-G3606" => "Galaxy Core Prime",
-            "SM-G3608" => "Galaxy Core Prime",
             _ => null
         };
     }

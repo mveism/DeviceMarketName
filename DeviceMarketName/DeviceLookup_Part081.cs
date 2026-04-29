@@ -4,6 +4,11 @@
     {
         internal static string? GetMarketingName_081(string model) => model switch
         {
+            "Y8-EEA" => "Y8-EEA",
+            "YOU-BOX" => "SEI600EN",
+            "YETC 1123" => "YETC_1123",
+            "YOUTAB S7" => "YOUTAB_S7",
+            "P80_RU" => "P80_RU",
             "Q2K" => "Q2K",
             "YQ10S_Pro" => "YQ10S_Pro",
             "YQ30" => "YQ30",
@@ -499,11 +504,6 @@
             "ZTE BLADE A910" => "BLADE A910",
             "ZTE BLADE B112" => "BLADE B112",
             "Skate Pro" => "BLADE III",
-            "ZTE BLADE III" => "BLADE III",
-            "ZTE Blade III" => "BLADE III",
-            "BLADE III_IL" => "BLADE III_IL",
-            "ZTE BLADE L0510" => "BLADE L0510",
-            "ZTE Blade L5 Plus" => "BLADE L0510",
             _ => null
         };
     }

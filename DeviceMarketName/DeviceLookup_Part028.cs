@@ -4,6 +4,7 @@
     {
         internal static string? GetMarketingName_028(string model) => model switch
         {
+            "HUAWEI LUA-L21" => "Y3II",
             "HUAWEI LUA-U02" => "Y3II",
             "HUAWEI LUA-U22" => "Y3II",
             "CRO-U00" => "Y3III",
@@ -503,7 +504,6 @@
             "HT10LB2MBKLTM02" => "HT10LB2MBKLTM02",
             "HT10LB3MBKLTM" => "HT10LB3MBKLTM",
             "HT10LB3MBKWW" => "HT10LB3MBKWW",
-            "HT10LC1MBKLTM" => "HT10LC1MBKLTM",
             _ => null
         };
     }

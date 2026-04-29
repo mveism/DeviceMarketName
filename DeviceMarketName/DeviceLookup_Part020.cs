@@ -4,6 +4,7 @@
     {
         internal static string? GetMarketingName_020(string model) => model switch
         {
+            "zx70" => "ZX70",
             "ZX70G2" => "ZX70G2",
             "ZX80" => "ZX80",
             "LYNX" => "LYNX",
@@ -503,7 +504,6 @@
             "Gplus P10" => "P10",
             "Gplus P10 2022" => "P10 2022",
             "Gplus P10+" => "P10+",
-            "GMC-668M" => "Q20",
             _ => null
         };
     }

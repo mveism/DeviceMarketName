@@ -4,6 +4,7 @@
     {
         internal static string? GetMarketingName_012(string model) => model switch
         {
+            "PGN-507" => "A9",
             "Allure M1" => "Allure  M1",
             "PGN613" => "Allure A55 Plus",
             "Allure M1 Plus" => "Allure M1 Plus",
@@ -503,7 +504,6 @@
             "CORE-M4 GO" => "CORE-M4 GO",
             "Core-X3" => "Core- X3",
             "Core-M5" => "Core-M5",
-            "Core-M6" => "Core-M6",
             _ => null
         };
     }

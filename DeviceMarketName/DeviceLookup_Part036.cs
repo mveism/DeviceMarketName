@@ -4,6 +4,7 @@
     {
         internal static string? GetMarketingName_036(string model) => model switch
         {
+            "LM-F100N" => "LG WING",
             "LG Watch Sport" => "LG Watch Sport",
             "LG Watch Style" => "LG Watch Style",
             "LG Watch Urbane" => "LG Watch Urbane",
@@ -503,7 +504,6 @@
             "ALPHA 2" => "ALPHA 2",
             "ALPHA 6" => "ALPHA 6",
             "ALPHA 4" => "ALPHA4",
-            "Alpha 1R" => "Alpha 1R",
             _ => null
         };
     }

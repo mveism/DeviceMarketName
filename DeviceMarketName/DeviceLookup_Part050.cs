@@ -4,6 +4,7 @@
     {
         internal static string? GetMarketingName_050(string model) => model switch
         {
+            "WP28 E" => "WP28_E_A15_EEA",
             "WP28 S" => "WP28_S_EEA",
             "WP300" => "WP300_EEA",
             "WP30 Pro" => "WP30_Pro_EEA",
@@ -250,6 +251,7 @@
             "25028PC03I" => "POCO C71",
             "2410FPCC5G" => "POCO C75",
             "24116PCC1I" => "POCO C75 5G",
+            "25128PC17I" => "POCO C81",
             "26020PCB4I" => "POCO C81x",
             "25078PC3EE" => "POCO C85",
             "25078PC3EG" => "POCO C85",
@@ -502,8 +504,6 @@
             "Elite v3a" => "Elitev3a",
             "Eluga_A2" => "Eluga A2",
             "Panasonic ELUGA Arc" => "Eluga Arc",
-            "Eluga_Arc_2" => "Eluga Arc 2",
-            "ELUGA_I2" => "Eluga I2",
             _ => null
         };
     }

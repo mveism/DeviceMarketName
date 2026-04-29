@@ -4,6 +4,7 @@
     {
         internal static string? GetMarketingName_023(string model) => model switch
         {
+            "A-TT00" => "A-TT00",
             "Andromax A36C5H" => "A36C5H",
             "Haier A42P" => "A42P",
             "A4_Lite" => "A4_Lite",
@@ -503,7 +504,6 @@
             "Hisense E77M" => "E77M",
             "Hisense E77MINI" => "E77MINI",
             "E860" => "E860",
-            "Hisense E9" => "E9",
             _ => null
         };
     }

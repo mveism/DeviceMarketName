@@ -4,6 +4,7 @@
     {
         internal static string? GetMarketingName_016(string model) => model switch
         {
+            "Notepad_Go_801" => "NotepadGo801",
             "Notepad_Go_801_EEA" => "NotepadGo801_EEA",
             "Notepad_Go_803" => "Notepad_Go_803",
             "S10M" => "S10M",
@@ -503,7 +504,6 @@
             "ETRI01" => "ETRI01",
             "ETRI02" => "ETRI02",
             "PBDV704DVD" => "7\\\\'\\\\' dvd tablet",
-            "SproutChannelCubby" => "Cubby",
             _ => null
         };
     }

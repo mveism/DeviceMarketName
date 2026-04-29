@@ -4,6 +4,7 @@
     {
         internal static string? GetMarketingName_042(string model) => model switch
         {
+            "Good" => "Good",
             "DV8955C-C" => "Melita-4K-TV",
             "MTAB-07530A" => "MTAB-07530A",
             "MTAB-07535AK" => "MTAB-0753AK",
@@ -503,7 +504,6 @@
             "Fever_Plus" => "Fever_Plus",
             "Fever_Plus_J" => "Fever_Plus_J",
             "GEO" => "GEO",
-            "GLO" => "GLO",
             _ => null
         };
     }

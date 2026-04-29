@@ -4,6 +4,7 @@
     {
         internal static string? GetMarketingName_046(string model) => model switch
         {
+            "DMTAB-IN08A" => "DreamTab HD8 Tablet",
             "DMTAB-NV08B" => "DreamTab HD8 Tablet",
             "NBFP07PMKG" => "Fisher Price Learning Tablet",
             "NA3615" => "Nakamichi NA3615",
@@ -503,7 +504,6 @@
             "N6201L" => "G4",
             "S5501L" => "M19",
             "NUU_M2" => "M2",
-            "NUU_M3" => "M3",
             _ => null
         };
     }

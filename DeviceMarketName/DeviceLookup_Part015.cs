@@ -4,6 +4,7 @@
     {
         internal static string? GetMarketingName_015(string model) => model switch
         {
+            "Optima 7016N 3G TS7175MG" => "DIGMA Optima 7016N 3G TS7175MG",
             "Optima 7017N 3G TS7177MG" => "DIGMA Optima 7017N 3G TS7177MG",
             "Optima 7018N 4G TS7179ML" => "DIGMA Optima 7018N 4G TS7179ML",
             "Optima_Prime_3_3G_TS7131MG" => "DIGMA Optima Prime 3 3G TS7131MG",
@@ -503,7 +504,6 @@
             "NotePad_Y80" => "NotePad_Y80",
             "Notepad-K10" => "Notepad-K10",
             "Notepad 102" => "Notepad102",
-            "Notepad_Go_801" => "NotepadGo801",
             _ => null
         };
     }

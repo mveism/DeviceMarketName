@@ -4,6 +4,7 @@
     {
         internal static string? GetMarketingName_014(string model) => model switch
         {
+            "KIDDOTAB10" => "KIDDOTAB10",
             "KIDDOTAB8" => "KIDDOTAB8",
             "STARPAD" => "STARPAD",
             "STARPAD PLUS" => "STARPAD_PLUS",
@@ -503,7 +504,6 @@
             "Optima 1024N 4G TT1188PL" => "DIGMA Optima 1024N 4G TT1188PL",
             "Optima 1025N 4G TS1190ML" => "DIGMA Optima 1025N 4G TS1190ML",
             "Optima 1026N 3G TT1192PG" => "DIGMA Optima 1026N 3G TT1192PG",
-            "Optima 7016N 3G TS7175MG" => "DIGMA Optima 7016N 3G TS7175MG",
             _ => null
         };
     }

@@ -4,6 +4,7 @@
     {
         internal static string? GetMarketingName_017(string model) => model switch
         {
+            "SproutChannelCubby" => "Cubby",
             "EBM104JB" => "EBM104JB",
             "EGD078" => "EGD078",
             "EGD103" => "EGD103",
@@ -503,7 +504,6 @@
             "FFFTAB10a2" => "FFFTAB10a2",
             "FFFTAB10a3" => "FFFTAB10a3",
             "FFFTAB10a4" => "FFFTAB10a4",
-            "FFFTAB10b0" => "FFFTAB10b0",
             _ => null
         };
     }

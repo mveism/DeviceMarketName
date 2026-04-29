@@ -4,6 +4,7 @@
     {
         internal static string? GetMarketingName_019(string model) => model switch
         {
+            "Fresh UHD Android TV" => "Egypt",
             "FRESH SMART TV" => "FRESH SMART TV",
             "FreshTV" => "FreshTV",
             "FRESH GOOGLE TV" => "Smart TV",
@@ -503,7 +504,6 @@
             "ZX10" => "ZX10",
             "ZX10G2" => "ZX10G2",
             "ZX70" => "ZX70",
-            "zx70" => "ZX70",
             _ => null
         };
     }

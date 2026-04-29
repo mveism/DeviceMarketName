@@ -4,6 +4,9 @@
     {
         internal static string? GetMarketingName_070(string model) => model switch
         {
+            "TCL i806" => "ALCATEL ONETOUCH IDOL 3 (5.5)",
+            "ALCATEL ONETOUCH P310A" => "ALCATEL ONETOUCH P310A",
+            "4009A" => "ALCATEL ONETOUCH PIXI 3 (3.5)",
             "4009D" => "ALCATEL ONETOUCH PIXI 3 (3.5)",
             "4009E" => "ALCATEL ONETOUCH PIXI 3 (3.5)",
             "4009F" => "ALCATEL ONETOUCH PIXI 3 (3.5)",
@@ -501,9 +504,6 @@
             "5010S" => "PIXI 4 (5)",
             "5010U" => "PIXI 4 (5)",
             "5010X" => "PIXI 4 (5)",
-            "A576CC" => "PIXI 5 HD",
-            "4003A" => "PIXI3(4)",
-            "4003J" => "PIXI3(4)",
             _ => null
         };
     }

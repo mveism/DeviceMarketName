@@ -442,6 +442,7 @@
             "A81F" => "Ibirapita",
             "KIL-TAB82WIFI" => "KIL-TAB82WIFI",
             "Kil-82WFDC" => "Kil-82WFDC",
+            "Minchir" => "Minchir",
             "bnd" => "Minchir",
             "RIGEL" => "RIGEL",
             "TC80RA1" => "TC80RA1",
@@ -503,7 +504,6 @@
             "HW-W820" => "HWW820",
             "Houston" => "Houston",
             "ICON" => "ICON",
-            "i-mobile IQ1-1" => "IQ 1.1",
             _ => null
         };
     }

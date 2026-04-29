@@ -4,6 +4,11 @@
     {
         internal static string? GetMarketingName_084(string model) => model switch
         {
+            "ZTE A7000" => "ZTE A7000",
+            "ZTE A7010" => "ZTE A7010",
+            "ZTE A7020" => "ZTE A7020",
+            "ZTE A7030" => "ZTE A7030",
+            "ZTE A7030RU" => "ZTE A7030RU",
             "ZTE A7040" => "ZTE A7040",
             "ZTE A7050" => "ZTE A7050",
             "ZTE A71 5G" => "ZTE A71 5G",
@@ -499,11 +504,6 @@
             "STELLAR M2" => "STELLAR M2",
             "STELLAR M3" => "STELLAR M3",
             "STELLAR M4" => "STELLAR M4",
-            "STELLAR MINI" => "STELLAR MINI",
-            "STELLAR P1" => "STELLAR P1",
-            "STELLAR P3" => "STELLAR P3",
-            "STELLAR P4" => "STELLAR P4",
-            "STELLAR P5" => "STELLAR P5",
             _ => null
         };
     }

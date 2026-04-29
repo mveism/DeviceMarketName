@@ -4,6 +4,9 @@
     {
         internal static string? GetMarketingName_063(string model) => model switch
         {
+            "SM-T239" => "Galaxy Tab4 7.0",
+            "SM-T2397" => "Galaxy Tab4 7.0",
+            "SM-T239M" => "Galaxy Tab4 7.0",
             "SM-T239C" => "Galaxy Tab4 7.0",
             "SM-T230" => "Galaxy Tab4 7.0",
             "SM-T230NY" => "Galaxy Tab4 7.0",
@@ -501,9 +504,6 @@
             "SAB200_001" => "SAB200_001",
             "KT101" => "KT101",
             "SG2" => "SG2",
-            "SG3" => "SG3",
-            "ST-107" => "ST-107",
-            "ST5000" => "ST5000",
             _ => null
         };
     }

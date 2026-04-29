@@ -4,6 +4,7 @@
     {
         internal static string? GetMarketingName_025(string model) => model switch
         {
+            "Dongle 4K" => "SEI700HMG",
             "Stick 4K" => "Stick 4K",
             "Stick HD" => "Stick HD",
             "TG STREAM 2" => "TG STREAM 2",
@@ -503,7 +504,6 @@
             "HUAWEI-M860" => "",
             "M865C" => "",
             "HUAWEI M866" => "",
-            "M866" => "",
             _ => null
         };
     }

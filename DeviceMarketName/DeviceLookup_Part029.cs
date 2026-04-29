@@ -4,6 +4,7 @@
     {
         internal static string? GetMarketingName_029(string model) => model switch
         {
+            "HT10LC1MBKLTM" => "HT10LC1MBKLTM",
             "HT10LC1MBKLTM01" => "HT10LC1MBKLTM01",
             "HT10LC1MBKWW01" => "HT10LC1MBKWW01",
             "HT10LC2MBKLTM" => "HT10LC2MBKLTM",
@@ -503,7 +504,6 @@
             "Infinix X665C" => "HOT 20i",
             "Infinix X665E" => "HOT 20i",
             "Infinix HOT 3 Pro" => "HOT 3",
-            "Infinix-X554" => "HOT 3",
             _ => null
         };
     }

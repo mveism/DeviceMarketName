@@ -4,6 +4,9 @@
     {
         internal static string? GetMarketingName_060(string model) => model switch
         {
+            "SM-M556E" => "Galaxy M55 5G",
+            "SM-M558B" => "Galaxy M55s 5G",
+            "SM-M566B" => "Galaxy M56 5G",
             "SM-M625F" => "Galaxy M62",
             "SM-G750H" => "Galaxy Mega 2",
             "GT-I9152" => "Galaxy Mega 5.8",
@@ -501,9 +504,6 @@
             "SM-G780G" => "Galaxy S20 FE",
             "SM-G780F" => "Galaxy S20 FE",
             "SM-G7810" => "Galaxy S20 FE 5G",
-            "SM-G781B" => "Galaxy S20 FE 5G",
-            "SM-G781N" => "Galaxy S20 FE 5G",
-            "SM-G781U" => "Galaxy S20 FE 5G",
             _ => null
         };
     }

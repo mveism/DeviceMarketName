@@ -4,6 +4,9 @@
     {
         internal static string? GetMarketingName_066(string model) => model switch
         {
+            "T8100" => "T8100",
+            "T8116" => "T8116",
+            "T8133" => "T8133_EEA",
             "Socrates Phone 01" => "Socrates Phone 01",
             "soda E1" => "E1",
             "soda FIRE" => "FIRE",
@@ -501,9 +504,6 @@
             "ST23a" => "Xperia miro",
             "MT25i" => "Xperia neo L",
             "ST18i" => "Xperia ray",
-            "MT27i" => "Xperia sola",
-            "ST21a" => "Xperia tipo",
-            "ST21a2" => "Xperia tipo dual",
             _ => null
         };
     }

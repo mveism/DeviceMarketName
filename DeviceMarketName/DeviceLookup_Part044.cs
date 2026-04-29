@@ -4,6 +4,7 @@
     {
         internal static string? GetMarketingName_044(string model) => model switch
         {
+            "XT1085" => "Moto X (2nd Gen)",
             "XT1092" => "Moto X (2nd Gen)",
             "XT1093" => "Moto X (2nd Gen)",
             "XT1094" => "Moto X (2nd Gen)",
@@ -503,7 +504,6 @@
             "M7S_PLUS" => "M7S PLUS",
             "M7S_Plus" => "M7S Plus",
             "M7SQC_Plus" => "M7SQC Plus",
-            "M7S_PLUS_KIDPAD" => "M7S_PLUS",
             _ => null
         };
     }

@@ -4,6 +4,12 @@
     {
         internal static string? GetMarketingName_086(string model) => model switch
         {
+            "I24M01" => "Swift2Ultra",
+            "EG104" => "EG104",
+            "EG110" => "EG110",
+            "EG125" => "Foryou Digital Co.,Ltd",
+            "IM-B101F" => "IM-B101F",
+            "IM-B101H" => "IM-B101H",
             "IM-B102" => "IM-B102",
             "IM-H031" => "IM-H031",
             "IM-H092L" => "IM-H092L",
@@ -498,12 +504,6 @@
             "RMX5060" => "真我Neo7",
             "RMX5080" => "真我Neo7 SE",
             "RMX5062" => "真我Neo7 Turbo",
-            "RMX5071" => "真我Neo7x",
-            "RMX8899" => "真我Neo8",
-            "RMX3462" => "真我Q3s",
-            "RMX3041" => "真我V13 5G",
-            "RMX3042" => "真我V13 5G",
-            "RMX3043" => "真我V13 5G",
             _ => null
         };
     }

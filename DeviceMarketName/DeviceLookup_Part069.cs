@@ -4,6 +4,9 @@
     {
         internal static string? GetMarketingName_069(string model) => model switch
         {
+            "9150S" => "TCL TAB Disney Edition 2",
+            "9132L" => "TCL TAB Lite",
+            "9049L" => "TCL TAB kids",
             "8496G" => "TCL TAB10 Gen2",
             "8196G" => "TCL TAB10 LTE Gen2",
             "9296Q" => "TCL TABMAX 10.4",
@@ -501,9 +504,6 @@
             "6045I" => "ALCATEL ONETOUCH IDOL 3 (5.5)",
             "6045K" => "ALCATEL ONETOUCH IDOL 3 (5.5)",
             "6045Y" => "ALCATEL ONETOUCH IDOL 3 (5.5)",
-            "TCL i806" => "ALCATEL ONETOUCH IDOL 3 (5.5)",
-            "ALCATEL ONETOUCH P310A" => "ALCATEL ONETOUCH P310A",
-            "4009A" => "ALCATEL ONETOUCH PIXI 3 (3.5)",
             _ => null
         };
     }

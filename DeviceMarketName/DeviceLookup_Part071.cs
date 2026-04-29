@@ -4,6 +4,9 @@
     {
         internal static string? GetMarketingName_071(string model) => model switch
         {
+            "A576CC" => "PIXI 5 HD",
+            "4003A" => "PIXI3(4)",
+            "4003J" => "PIXI3(4)",
             "4013D" => "PIXI3(4)",
             "4013E" => "PIXI3(4)",
             "4013J" => "PIXI3(4)",
@@ -501,9 +504,6 @@
             "ITP-R408W" => "DREAM PAD",
             "TU7_18222" => "TU7_58212_18222",
             "TV Smart 4K BOX" => "TV Smart 4K BOX",
-            "KF-1500" => "KF-1500",
-            "TV PLUS 4K BOX" => "TV PLUS 4K BOX",
-            "HP5432" => "TVPLUS",
             _ => null
         };
     }

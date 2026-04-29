@@ -4,6 +4,11 @@
     {
         internal static string? GetMarketingName_076(string model) => model switch
         {
+            "T30_PLUS" => "T30_PLUS",
+            "T30_Plus_EEA" => "T30_Plus_EEA",
+            "T50_PLUS" => "T50_PLUS",
+            "T60_PLUS" => "T60_PLUS",
+            "T7S" => "T7S",
             "T80_PLUS" => "T80_PLUS",
             "T80_PLUS_EEA" => "T80_PLUS",
             "V88" => "V88",
@@ -499,11 +504,6 @@
             "V2362A" => "S19 Pro",
             "V2429A" => "S20",
             "V2430A" => "S20 Pro",
-            "V2153" => "T1",
-            "V2154" => "T1",
-            "V2168" => "T1",
-            "V2150" => "T1 5G",
-            "V2151" => "T1 Pro 5G",
             _ => null
         };
     }

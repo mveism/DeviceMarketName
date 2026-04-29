@@ -4,6 +4,7 @@
     {
         internal static string? GetMarketingName_035(string model) => model switch
         {
+            "LG-F510K" => "LG G Flex2",
             "LG-F510L" => "LG G Flex2",
             "LG-F510S" => "LG G Flex2",
             "LG-H950" => "LG G Flex2",
@@ -503,7 +504,6 @@
             "LG-F540S" => "LG Volt LTE",
             "LG-F640S" => "LG Volt S",
             "LM-F100" => "LG WING",
-            "LM-F100N" => "LG WING",
             _ => null
         };
     }

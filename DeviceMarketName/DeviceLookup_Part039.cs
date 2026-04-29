@@ -4,6 +4,7 @@
     {
         internal static string? GetMarketingName_039(string model) => model switch
         {
+            "Lenovo S60-t" => "S60",
             "Lenovo S60-w" => "S60",
             "Lenovo S6000L-F" => "S6000L",
             "ideatv S61" => "S61",
@@ -503,7 +504,6 @@
             "Yuno" => "Yuno",
             "LeMoov" => "le Moov",
             "LOGIK 4K Android TV" => "LOGIK",
-            "LOGIK 2K Android TV" => "LOGIK",
             _ => null
         };
     }

@@ -4,6 +4,9 @@
     {
         internal static string? GetMarketingName_064(string model) => model switch
         {
+            "SG3" => "SG3",
+            "ST-107" => "ST-107",
+            "ST5000" => "ST5000",
             "Seiki Android TV" => "North America",
             "Seiki Android TV 2K" => "North America",
             "Seleco AndroidTV" => "Seleco 2K Smart TV",
@@ -501,9 +504,6 @@
             "RW107" => "RW107",
             "RZ-E302" => "RZ-E302",
             "RZ-H270" => "RZ-H271",
-            "S3-SH" => "S3",
-            "S5-SH" => "S5",
-            "S7-SH" => "S7",
             _ => null
         };
     }

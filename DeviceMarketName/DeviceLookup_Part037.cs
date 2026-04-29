@@ -4,6 +4,7 @@
     {
         internal static string? GetMarketingName_037(string model) => model switch
         {
+            "Alpha 1R" => "Alpha 1R",
             "Alpha 1V" => "Alpha 1V",
             "Alpha 3R" => "Alpha 3R",
             "Alpha 5V" => "Alpha 5V",
@@ -503,7 +504,6 @@
             "LenovoTV 32A3" => "32A3   40A3   43A3   49A3",
             "AQUOS 50U3A" => "55E82,49E82,50U3A,58U3A,70UD30A,60UD30A,80UD30A,65UR30A",
             "AQUOS 65UR30A" => "55E82,49E82,50U3A,58U3A,70UD30A,60UD30A,80UD30A,65UR30A",
-            "AQUOS 70UD30A" => "55E82,49E82,50U3A,58U3A,70UD30A,60UD30A,80UD30A,65UR30A",
             _ => null
         };
     }

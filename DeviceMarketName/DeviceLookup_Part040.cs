@@ -4,6 +4,7 @@
     {
         internal static string? GetMarketingName_040(string model) => model switch
         {
+            "LOGIK 2K Android TV" => "LOGIK",
             "LZ-AA10" => "LZ-AA10",
             "LZ-AA10MC" => "LZ-AA10MC",
             "GR0006" => "GR0006",
@@ -503,7 +504,6 @@
             "MARCEL GSMART5.0 4KTV" => "MARCEL GSMART5.0 4KTV",
             "MARCEL GSMART5.0 4KTV FF" => "MARCEL GSMART5.0 4KTV FF",
             "MARCEL UHD GOOGLE TV 5.0" => "Smart TV",
-            "MARCEL GOOGLE TV5.0" => "Smart TV",
             _ => null
         };
     }

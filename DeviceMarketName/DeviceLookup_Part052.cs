@@ -4,6 +4,8 @@
     {
         internal static string? GetMarketingName_052(string model) => model switch
         {
+            "Kids 10" => "Kids_10_EEA",
+            "Kids_8" => "Kids_8",
             "P1A15" => "P1A15",
             "P1A15_EEA" => "P1A15_EEA",
             "P1_A16_EEA_JAE" => "P1_A16_EEA_JAE",
@@ -502,8 +504,6 @@
             "PMT1177_4G" => "PMT1177_ 4G",
             "PMT1177_3G" => "PMT1177_3G",
             "PMT1196_3G" => "PMT1196_3G",
-            "PMT3008_Wi_C" => "PMT3008_Wi",
-            "PMT3011_3G" => "PMT3011_3G",
             _ => null
         };
     }

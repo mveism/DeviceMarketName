@@ -4,6 +4,11 @@
     {
         internal static string? GetMarketingName_080(string model) => model switch
         {
+            "X_TIGI_V19" => "X-TIGI V19",
+            "X-TIGI_JOY7_MAX" => "X-TIGI_JOY7_MAX",
+            "X-TIGI_V11" => "X-TIGI_V11",
+            "X-TIGI_V13" => "X-TIGI_V13",
+            "X-TIGI_V15" => "X-TIGI_V15",
             "X-TIGI_V18 Pro" => "X-TIGI_V18 Pro",
             "X-TIGI_V33" => "X-TIGI_V33",
             "X-TIGI_V5" => "X-TIGI_V5",
@@ -499,11 +504,6 @@
             "Y5-EEA" => "Y5-EEA",
             "Y61" => "Y61",
             "Y61-EEA" => "Y61-EEA",
-            "Y8-EEA" => "Y8-EEA",
-            "YOU-BOX" => "SEI600EN",
-            "YETC 1123" => "YETC_1123",
-            "YOUTAB S7" => "YOUTAB_S7",
-            "P80_RU" => "P80_RU",
             _ => null
         };
     }

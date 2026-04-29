@@ -4,6 +4,7 @@
     {
         internal static string? GetMarketingName_049(string model) => model switch
         {
+            "PLT130" => "PLT130",
             "OPD2409" => "Pad 4 Pro",
             "OPD2511" => "Pad 5 Pro",
             "OPD2501" => "Pad Air5",
@@ -503,7 +504,6 @@
             "WP23 Plus" => "WP23_Plus_A15_EEA",
             "WP23 S" => "WP23_Plus_A15_EEA",
             "WP27" => "WP27_EEA",
-            "WP28 E" => "WP28_E_A15_EEA",
             _ => null
         };
     }

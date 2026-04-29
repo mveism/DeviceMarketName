@@ -4,6 +4,7 @@
     {
         internal static string? GetMarketingName_027(string model) => model switch
         {
+            "ATU-L21" => "HUAWEI Y6 2018",
             "ATU-L22" => "HUAWEI Y6 2018",
             "ATU-LX3" => "HUAWEI Y6 2018",
             "MRD-LX1" => "HUAWEI Y6 2019",
@@ -503,7 +504,6 @@
             "HUAWEI Y360-U93" => "Y360-U93",
             "HUAWEI LUA-L01" => "Y3II",
             "HUAWEI LUA-L02" => "Y3II",
-            "HUAWEI LUA-L21" => "Y3II",
             _ => null
         };
     }

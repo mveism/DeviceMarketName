@@ -4,6 +4,9 @@
     {
         internal static string? GetMarketingName_065(string model) => model switch
         {
+            "S3-SH" => "S3",
+            "S5-SH" => "S5",
+            "S7-SH" => "S7",
             "SBM204SH" => "SBM204SH",
             "SC-S01" => "SC-S01",
             "SH-01EVW" => "SH-01E Vivienne Westwood",
@@ -501,9 +504,6 @@
             "Smooth 5.5" => "Smooth5_5",
             "Smooth626" => "Smooth626",
             "ServiceChecKIT_EEA" => "ServiceChecKIT",
-            "T8100" => "T8100",
-            "T8116" => "T8116",
-            "T8133" => "T8133_EEA",
             _ => null
         };
     }

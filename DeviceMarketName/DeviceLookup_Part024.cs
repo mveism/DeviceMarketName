@@ -4,6 +4,7 @@
     {
         internal static string? GetMarketingName_024(string model) => model switch
         {
+            "Hisense E9" => "E9",
             "EG606" => "EG606",
             "EG680" => "EG680",
             "LT668" => "EG68AE",
@@ -503,7 +504,6 @@
             "Dongle G 4K" => "Global",
             "KP1" => "Kickpi",
             "MB730" => "MB730",
-            "Dongle 4K" => "SEI700HMG",
             _ => null
         };
     }

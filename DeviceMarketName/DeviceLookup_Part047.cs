@@ -4,6 +4,7 @@
     {
         internal static string? GetMarketingName_047(string model) => model switch
         {
+            "NUU_M3" => "M3",
             "S6503L" => "M6",
             "S6603L" => "N10",
             "S6008L" => "N12",
@@ -503,7 +504,6 @@
             "M1 Lite" => "M1 Lite",
             "V9 Pro" => "V9 Pro",
             "65SX" => "65SX",
-            "67E 5G" => "67E 5G",
             _ => null
         };
     }
