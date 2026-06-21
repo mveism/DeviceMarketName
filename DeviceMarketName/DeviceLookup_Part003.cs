@@ -4,6 +4,14 @@
     {
         internal static string? GetMarketingName_003(string model) => model switch
         {
+            "S4T" => "S4T",
+            "S4Z" => "S4Z",
+            "5063" => "S50 Prime",
+            "5062" => "S5E FULL VIEW",
+            "S5E_NXT" => "S5E_NXT",
+            "5502" => "S6 Plus",
+            "5504" => "S6 Pro",
+            "S7A" => "S7A",
             "S7C" => "S7C",
             "T2J" => "T2J",
             "T2K" => "T2K",
@@ -496,14 +504,6 @@
             "X4_Soul_Mini_S_TM" => "X4 Soul Mini S",
             "X4_Soul_Style" => "X4 Soul Style",
             "X4_Soul_Vision" => "X4 Soul Vision",
-            "X4_Soul_Xtreme" => "X4 Soul Xtreme",
-            "X5_Soul_Mini" => "X5 Soul Mini",
-            "X5_Soul_Pro" => "X5 Soul Pro",
-            "X5_Soul" => "X5_Soul",
-            "X5_Soul_Style" => "X5_Soul_Style",
-            "X6_Soul_Xtreme" => "X6 Soul Xtreme",
-            "X6_Soul_mini" => "X6 Soul mini",
-            "X7_Soul_Style" => "X7 Soul Style",
             _ => null
         };
     }

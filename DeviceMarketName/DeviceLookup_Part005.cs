@@ -4,6 +4,21 @@
     {
         internal static string? GetMarketingName_005(string model) => model switch
         {
+            "ARCHOS 80 TITANIUM" => "80 Titanium",
+            "ARCHOS 80XSK" => "80 XS",
+            "Archos 80 Xenon" => "80 Xenon",
+            "Archos 80b Helium" => "80b Helium",
+            "Archos 80b Helium v2" => "80b Helium",
+            "ARCHOS 80b PLATINUM" => "80b Platinum",
+            "Archos 80b Xenon" => "80b xenon",
+            "Archos 80c Xenon" => "80c Xenon",
+            "Archos 80d Xenon" => "80d Xenon",
+            "9.4\\\\'\\\\' FFF" => "9.4\\\\'\\\\' FFF",
+            "Archos 90 Copper" => "90 Copper",
+            "Archos 90 Neon" => "90 Neon",
+            "Archos 90b Copper" => "90b Copper",
+            "Archos 90b Neon" => "90b Neon",
+            "Archos 96 Xenon" => "96 Xenon",
             "ARCHOS 97 CARBON" => "97 Carbon",
             "Archos 97 Cobalt" => "97 Cobalt",
             "ARCHOS 97 Platinum" => "97 Platinum",
@@ -489,21 +504,6 @@
             "ASUS_A002" => "ZenFone AR (ZS571KL)",
             "ASUS_Z007" => "ZenFone C (ZC451CG)",
             "ASUS_X003" => "ZenFone Go (T500)",
-            "ASUS_X009DB" => "ZenFone Go (ZB450KL)",
-            "ASUS_X014D" => "ZenFone Go (ZB452KG)",
-            "ASUS_X00BD" => "ZenFone Go (ZB500KG)",
-            "ASUS_X00AD" => "ZenFone Go (ZB500KL)",
-            "ASUS_X013DA" => "ZenFone Go (ZB551KL)",
-            "ASUS_X013DB" => "ZenFone Go (ZB551KL)",
-            "ASUS_X007D" => "ZenFone Go (ZB552KL)",
-            "ASUS_L001" => "ZenFone Go (ZB690KG)",
-            "ASUS_Z00SD" => "ZenFone Go (ZC451TG)",
-            "ASUS_Z00VD" => "ZenFone Go (ZC500TG)",
-            "G553KL" => "ZenFone Lite L1 (G553KL)",
-            "ASUS_X00RD" => "ZenFone Lite L1 (ZA551KL) / ZenFone Live L1/L2 (ZA550KL)",
-            "ASUS_A007" => "ZenFone Live (ZB501KL)",
-            "G552KL" => "ZenFone Live L1 (G552KL)",
-            "ZA550KL" => "ZenFone Live L1 (G552KL)",
             _ => null
         };
     }

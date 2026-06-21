@@ -129,6 +129,7 @@
             "buzz 8 Pro Plus" => "buzz 8 Pro Plus",
             "buzz Neo 5G" => "buzz Neo 5G",
             "ALTOS_EZA" => "ALTOS_EZA",
+            "ALTOS_EZAA" => "ALTOS_EZAA",
             "V10401" => "V10401",
             "ACT4K1007" => "ACT4K1007",
             "ACT4K2020" => "ACT4K2020",
@@ -304,6 +305,7 @@
             "Q10107L-ME" => "Q10107L-ME",
             "Q10107LW-ME" => "Q10107LW-ME",
             "Q8108L-ME" => "Q8108L-ME",
+            "SRK_SERIES" => "SRK_SERIES",
             "P10" => "P10",
             "P10 Kid" => "P10 Kid",
             "P10 Pro" => "P10 Pro",
@@ -418,6 +420,7 @@
             "APD3" => "APD3",
             "A8GC" => "ATEC GRANDE",
             "ABGC" => "ATEC_GRANDE",
+            "A8KD" => "A8KD",
             "A68EL" => "A68EL",
             "AT908" => "AT908",
             "AT908_EEA" => "AT908_EEA",
@@ -501,9 +504,6 @@
             "Funtab_1001_EEA" => "Funtab_1001_EEA",
             "Funtab_1002_EEA" => "Funtab_1002_EEA",
             "Funtab_1003_EEA" => "Funtab_1003_EEA",
-            "Funtab_1003_US" => "Funtab_1003_US",
-            "Funtab_1005_EEA" => "Funtab_1005_EEA",
-            "Funtab_1005_US" => "Funtab_1005_US",
             _ => null
         };
     }

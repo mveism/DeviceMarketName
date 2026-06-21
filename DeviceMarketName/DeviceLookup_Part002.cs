@@ -4,6 +4,9 @@
     {
         internal static string? GetMarketingName_002(string model) => model switch
         {
+            "Funtab_1003_US" => "Funtab_1003_US",
+            "Funtab_1005_EEA" => "Funtab_1005_EEA",
+            "Funtab_1005_US" => "Funtab_1005_US",
             "Funtab_801_I" => "Funtab_801_I",
             "Funtab_801_K" => "Funtab_801_K",
             "Funtab_801_K_EEA" => "Funtab_801_K",
@@ -14,6 +17,7 @@
             "P11_EEA" => "P11_EEA",
             "P12_EEA" => "P12_EEA",
             "P12_US" => "P12_US",
+            "P13A" => "P13A_EEA",
             "UTBook" => "UTBook",
             "UTBook_14" => "UTBook_14",
             "UTBook_15" => "UTBook_15",
@@ -228,8 +232,10 @@
             "Acer_One_10_T8-129L" => "Acer One 10 T8-129L",
             "Acer One 7 4G" => "Acer One 7",
             "Acer One 8 T4-82L" => "Acer One 8 T4-82L",
+            "Acer One 8 T4-82L-G2" => "Acer One 8 T4-82L-G2",
             "AcerOne8T4-82L-G2" => "Acer One 8 T4-82L-G2",
             "Acer One 8 T9-422L" => "Acer One 8 T9-422L",
+            "Acer One Pro 87" => "Acer One Pro 87",
             "Acer One T10-22L" => "Acer One T10-22L",
             "Acer One T11-22L" => "Acer One T11-22L",
             "Acer One T11-22L-5G" => "Acer One T11-22L-5G",
@@ -415,7 +421,9 @@
             "DAC51U" => "acerpure",
             "M1G" => "dahu",
             "R6G" => "vileparle",
+            "ACP65P" => "ACERPURE INDIA CE PRIVATE LIMITED",
             "Acerone Liquid S162E4" => "Acer Acerpure",
+            "Acerone Liquid S262F5" => "Acer Acerpure",
             "R726" => "R726",
             "X63L" => "X63L",
             "Kids Tab 1" => "Kids Tab 1",
@@ -496,14 +504,6 @@
             "ADVAN S40" => "S40",
             "i4U" => "S40 LTE",
             "S45E" => "S45E",
-            "S4T" => "S4T",
-            "S4Z" => "S4Z",
-            "5063" => "S50 Prime",
-            "5062" => "S5E FULL VIEW",
-            "S5E_NXT" => "S5E_NXT",
-            "5502" => "S6 Plus",
-            "5504" => "S6 Pro",
-            "S7A" => "S7A",
             _ => null
         };
     }
